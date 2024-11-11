@@ -21,7 +21,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "outDir": "./dist/"
+    // "outDir": "./build/"
   },
   "include": [
     "./src/**/*"
