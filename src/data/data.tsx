@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 // import heroImage from '../images/header-background.webp';
-import heroImage from '../../public/images/background.jpg';
+import heroImage from '../../public/images/background.png';
 import profilepic from '../../public/images/engagement.jpg';
 // import testimonialImage from '../../public/images/testimonial.webp';
 import florals from '../../public/images/florals.png'
