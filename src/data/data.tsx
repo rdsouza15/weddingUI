@@ -10,9 +10,9 @@ import {
 
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../../public/images/background.jpg';
+import profilepic from '../../public/images/engagement.jpg';
 // import testimonialImage from '../../public/images/testimonial.webp';
 import florals from '../../public/images/florals.png'
-import profilepic from '../../public/images/engagement.jpg';
 import italy from '../../public/images/portfolio/Italy.jpg';
 import p1 from '../../public/images/portfolio/p1.jpg';
 import p2 from '../../public/images/portfolio/p2.jpg';
