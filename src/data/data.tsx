@@ -15,6 +15,18 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../images/background.jpg';
+// import testimonialImage from '../images/testimonial.webp';
+import florals from '../images/florals.png'
+import profilepic from '../images/portfolio/engagement.jpg';
+import italy from '../images/portfolio/Italy.jpg';
+import p1 from '../images/portfolio/p1.jpg';
+import p2 from '../images/portfolio/p2.jpg';
+import p3 from '../images/portfolio/p3.jpg';
+import p4 from '../images/portfolio/p4.jpg';
+import p5 from '../images/portfolio/p5.jpg';
+import p6 from '../images/portfolio/p6.jpg';
+import p7 from '../images/portfolio/p7.jpg';
+import p8 from '../images/portfolio/p8.jpg';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 // import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,18 +38,6 @@ import heroImage from '../images/background.jpg';
 // import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import p1 from '../images/portfolio/p1.jpg';
-import p2 from '../images/portfolio/p2.jpg';
-import p3 from '../images/portfolio/p3.jpg';
-import p4 from '../images/portfolio/p4.jpg';
-import p5 from '../images/portfolio/p5.jpg';
-import p6 from '../images/portfolio/p6.jpg';
-import p7 from '../images/portfolio/p7.jpg';
-import p8 from '../images/portfolio/p8.jpg';
-import profilepic from '../images/portfolio/engagement.jpg';
-import italy from '../images/portfolio/Italy.jpg';
-// import testimonialImage from '../images/testimonial.webp';
-import florals from '../images/florals.png'
 import {
   About,
   ContactSection,
