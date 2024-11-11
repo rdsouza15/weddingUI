@@ -8,25 +8,20 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 // import heroImage from '../images/header-background.webp';
-import heroImage from '../images/background.jpg';
-// import testimonialImage from '../images/testimonial.webp';
-import florals from '../images/florals.png'
-import profilepic from '../images/portfolio/engagement.jpg';
-import italy from '../images/portfolio/Italy.jpg';
-import p1 from '../images/portfolio/p1.jpg';
-import p2 from '../images/portfolio/p2.jpg';
-import p3 from '../images/portfolio/p3.jpg';
-import p4 from '../images/portfolio/p4.jpg';
-import p5 from '../images/portfolio/p5.jpg';
-import p6 from '../images/portfolio/p6.jpg';
-import p7 from '../images/portfolio/p7.jpg';
-import p8 from '../images/portfolio/p8.jpg';
+import heroImage from '../../public/images/background.jpg';
+// import testimonialImage from '../../public/images/testimonial.webp';
+import florals from '../../public/images/florals.png'
+import profilepic from '../../public/images/portfolio/engagement.jpg';
+import italy from '../../public/images/portfolio/Italy.jpg';
+import p1 from '../../public/images/portfolio/p1.jpg';
+import p2 from '../../public/images/portfolio/p2.jpg';
+import p3 from '../../public/images/portfolio/p3.jpg';
+import p4 from '../../public/images/portfolio/p4.jpg';
+import p5 from '../../public/images/portfolio/p5.jpg';
+import p6 from '../../public/images/portfolio/p6.jpg';
+import p7 from '../../public/images/portfolio/p7.jpg';
+import p8 from '../../public/images/portfolio/p8.jpg';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 // import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -37,7 +32,12 @@ import p8 from '../images/portfolio/p8.jpg';
 // import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 // import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage11 from '../../public/images/portfolio/portfolio-11.jpg';
+import GithubIcon from '../components/Icon/GithubIcon';
+import InstagramIcon from '../components/Icon/InstagramIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+import TwitterIcon from '../components/Icon/TwitterIcon';
 import {
   About,
   ContactSection,
