@@ -13,7 +13,8 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+// import heroImage from '../images/header-background.webp';
+import heroImage from '../images/background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -25,8 +26,18 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import p1 from '../images/portfolio/p1.jpg';
+import p2 from '../images/portfolio/p2.jpg';
+import p3 from '../images/portfolio/p3.jpg';
+import p4 from '../images/portfolio/p4.jpg';
+import p5 from '../images/portfolio/p5.jpg';
+import p6 from '../images/portfolio/p6.jpg';
+import p7 from '../images/portfolio/p7.jpg';
+import p8 from '../images/portfolio/p8.jpg';
+import profilepic from '../images/portfolio/engagement.jpg';
+import italy from '../images/portfolio/Italy.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import florals from '../images/florals.png'
 import {
   About,
   ContactSection,
@@ -53,13 +64,13 @@ export const homePageMeta: HomepageMeta = {
  */
 export const SectionId = {
   Hero: 'hero',
-  About: 'about',
-  Contact: 'contact',
-  Portfolio: 'portfolio',
-  Resume: 'resume',
+  About: 'Home',
+  Contact: 'RSVP',
+  Portfolio: 'Memories',
+  Resume: 'Schedule',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Testimonials: 'Venue',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -69,31 +80,24 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Insiya & Ryan`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        <strong className="text-stone-100">We're getting married! </strong>,
       </p>
     </>
   ),
   actions: [
     {
       href: '/assets/resume.pdf',
-      text: 'Resume',
+      text: 'Calendar',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
     {
       href: `#${SectionId.Contact}`,
-      text: 'Contact',
+      text: 'RSVP',
       primary: false,
     },
   ],
@@ -104,16 +108,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  imageSrc: florals,
+  description: `We look forward to sharing this special day with you and all our other loved ones.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Toronto,ON', Icon: MapIcon},
+    {label: 'Date', text: 'Oct 4th 2025', Icon: SparklesIcon},
+    {label: 'Time', text: '5pm', Icon: SparklesIcon},
+    // {label: 'Age', text: '29', Icon: CalendarIcon},
+    // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    // {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    // {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -122,69 +127,18 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Favourite Songs',
     skills: [
       {
         name: 'English',
         level: 10,
       },
       {
-        name: 'French',
+        name: 'Bollywood',
         level: 4,
       },
       {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
+        name: 'Everything Else',
         level: 3,
       },
     ],
@@ -199,61 +153,61 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage1,
+    image: p1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: p2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage3,
+    image: p3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage4,
+    image: p4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage5,
+    image: p5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage6,
+    image: p6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage7,
+    image: p7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage8,
+    image: p8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage9,
+    image: profilepic,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage10,
+    image: italy,
   },
   {
     title: 'Project title 11',
@@ -268,39 +222,37 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Oct 2025',
+    location: 'Mississauga',
+    title: 'Mehndi',
+    content: <p>Private ceremony with Insiya's family</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Oct 2025',
+    location: 'Brampton/Toronto',
+    title: 'Roce',
+    content: <p>Private ceremony with Ryan's family</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Oct 4th 2025 5pm sharp',
+    location: 'Toronto',
+    title: 'Storys Wedding Ceremony',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+         Join us as we tie the knot.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Oct 5 6pm',
+    location: 'Toronto',
+    title: 'Storys Wedding Reception',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Let's celebrate
       </p>
     ),
   },
@@ -310,7 +262,7 @@ export const experience: TimelineItem[] = [
  * Testimonial section
  */
 export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
+  imageSrc: florals,
   testimonials: [
     {
       name: 'John Doe',
@@ -335,27 +287,22 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'RSVP',
+  description: 'Please RSVP with any dietary restrictions. Also let us know your favourite song to get you moving on the dancefloor',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
+      text: 'insiyaryan@gmail.com',
       href: 'mailto:reachout@timbaker.me',
     },
     {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@insiyaryan',
       href: 'https://www.instagram.com/tbakerx/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'insiyaryan',
       href: 'https://github.com/tbakerx',
     },
   ],
