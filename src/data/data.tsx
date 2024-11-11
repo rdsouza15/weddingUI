@@ -1,9 +1,9 @@
 import {
-  AcademicCapIcon,
+  // AcademicCapIcon,
   ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
+  // BuildingOffice2Icon,
+  // /CalendarIcon,
+  // FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
@@ -15,16 +15,16 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../images/background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import p1 from '../images/portfolio/p1.jpg';
 import p2 from '../images/portfolio/p2.jpg';
@@ -36,7 +36,7 @@ import p7 from '../images/portfolio/p7.jpg';
 import p8 from '../images/portfolio/p8.jpg';
 import profilepic from '../images/portfolio/engagement.jpg';
 import italy from '../images/portfolio/Italy.jpg';
-import testimonialImage from '../images/testimonial.webp';
+// import testimonialImage from '../images/testimonial.webp';
 import florals from '../images/florals.png'
 import {
   About,
