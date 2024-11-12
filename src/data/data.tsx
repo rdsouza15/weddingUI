@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 // import heroImage from '../images/header-background.webp';
-import heroImage from '../../public/images/background.png';
+// import heroImage from '../../public/images/background.png';
 import profilepic from '../../public/images/e1.png';
 // import p2 from '../../public/images/e2.png';
 // import testimonialImage from '../../public/images/testimonial.webp';
@@ -79,7 +79,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-  imageSrc: heroImage,
+  imageSrc: florals,
   name: `Insiya & Ryan`,
   description: (
     <>
