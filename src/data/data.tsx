@@ -10,12 +10,12 @@ import {
 
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../../public/images/background.png';
-import profilepic from '../../public/images/engagement.png';
+import profilepic from '../../public/images/e1.png';
+import p2 from '../../public/images/e2.png';
 // import testimonialImage from '../../public/images/testimonial.webp';
 import florals from '../../public/images/florals.png'
 import italy from '../../public/images/portfolio/Italy.jpg';
 import p1 from '../../public/images/portfolio/p1.jpg';
-import p2 from '../../public/images/portfolio/p2.jpg';
 import p3 from '../../public/images/portfolio/p3.jpg';
 import p4 from '../../public/images/portfolio/p4.jpg';
 import p5 from '../../public/images/portfolio/p5.jpg';
