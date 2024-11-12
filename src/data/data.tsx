@@ -107,6 +107,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
+  
   profileImageSrc: profilepic,
   imageSrc: florals,
   description: `We look forward to sharing this special day with you and all our other loved ones.`,
